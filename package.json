@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:run-button-script.helloWorld"
+		"onCommand:run-button-script.run"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "run-button-script.helloWorld",
-				"title": "Hello World",
+				"command": "run-button-script.run",
+				"title": "Run script button",
 				"icon": {
 					"light": "./images/play-icon.svg",
 					"dark": "./images/play-icon.svg"
@@ -27,7 +27,7 @@
 		"menus": {
 			"editor/title": [
 				{
-					"command": "run-button-script.helloWorld",
+					"command": "run-button-script.run",
 					"when": "resourceLangId == typescript || resourceLangId == javascript",
 					"group": "navigation"
 				}

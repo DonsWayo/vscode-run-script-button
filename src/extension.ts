@@ -4,7 +4,7 @@ import * as vscode from 'vscode';
 import { showScripts } from './select-script';
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('run-button-script.helloWorld', () => {
+	let disposable = vscode.commands.registerCommand('run-button-script.run', () => {
 		showScripts();
 	});
 
