@@ -1,6 +1,6 @@
 {
 	"name": "run-button-script",
-	"displayName": "run-button-script",
+	"displayName": "Run button script",
 	"description": "Run scripts of the package.json in one click",
 	"version": "0.0.1",
 	"engines": {
@@ -35,7 +35,7 @@
 		}
 	},
 	"configuration": {
-		"title": "Run button Configuration",
+		"title": "Run button script Configuration",
 		"run-button-script.hasEditorTitleIcon": {
 			"type": "boolean",
 			"default": true,
