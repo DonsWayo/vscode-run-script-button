@@ -17,9 +17,30 @@
 		"commands": [
 			{
 				"command": "run-button-script.helloWorld",
-				"title": "Hello World"
+				"title": "Hello World",
+				"icon": {
+					"light": "./images/play-icon.svg",
+					"dark": "./images/play-icon.svg"
+				}
 			}
-		]
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"command": "run-button-script.helloWorld",
+					"when": "resourceLangId == typescript || resourceLangId == javascript",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"configuration": {
+		"title": "Run button Configuration",
+		"run-button-script.hasEditorTitleIcon": {
+			"type": "boolean",
+			"default": true,
+			"description": "Show the run icon in the editor bar on the top right."
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
