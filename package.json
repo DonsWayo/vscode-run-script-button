@@ -1,13 +1,23 @@
 {
-	"name": "run-button-script",
+	"name": "vscode-un-button-script",
 	"displayName": "Run button script",
 	"description": "Run scripts of the package.json in one click",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"icon": "images/icon.png",
+	"publisher": "JuanJoseCarracedo",
+  	"author": "Juan Jose Carracedo (djwayomix@gmail.com)",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
 	"categories": [
 		"Other"
+	],
+	"keywords": [
+		"run",
+		"button",
+		"run package",
+		"package.json",
+		"extension"
 	],
 	"activationEvents": [
 		"onCommand:run-button-script.run"
@@ -41,6 +51,10 @@
 			"default": true,
 			"description": "Show the run icon in the editor bar on the top right."
 		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DonsWayo/vscode-run-script-button.git"
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
