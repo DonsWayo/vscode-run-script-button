@@ -5,7 +5,7 @@
 	"version": "1.0.3",
 	"icon": "images/icon.png",
 	"publisher": "JuanJoseCarracedo",
-  	"author": "Juan Jose Carracedo (djwayomix@gmail.com)",
+	"author": "Juan Jose Carracedo (djwayomix@gmail.com)",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
