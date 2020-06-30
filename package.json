@@ -2,7 +2,7 @@
 	"name": "vscode-un-button-script",
 	"displayName": "Run button script",
 	"description": "Run scripts of the package.json in one click",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"icon": "images/icon.png",
 	"publisher": "JuanJoseCarracedo",
   	"author": "Juan Jose Carracedo (djwayomix@gmail.com)",
@@ -38,7 +38,7 @@
 			"editor/title": [
 				{
 					"command": "run-button-script.run",
-					"when": "resourceLangId == typescript || resourceLangId == javascript",
+					"when": "resourceLangId == typescript || resourceLangId == javascript || resourceLangId == typescriptreact | resourceLangId == javascriptreact",
 					"group": "navigation"
 				}
 			]
