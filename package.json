@@ -2,12 +2,12 @@
 	"name": "vscode-un-button-script",
 	"displayName": "Run button script",
 	"description": "Run scripts of the package.json in one click",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"icon": "images/icon.png",
 	"publisher": "JuanJoseCarracedo",
   	"author": "Juan Jose Carracedo (djwayomix@gmail.com)",
 	"engines": {
-		"vscode": "^1.46.0"
+		"vscode": "^1.37.0"
 	},
 	"categories": [
 		"Other"
